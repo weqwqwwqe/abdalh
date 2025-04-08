@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <title>تواصل معنا</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1>تواصل معنا</h1>
+    <p>نرحب بتواصلك معنا. الرجاء ملء النموذج أدناه وإرساله:</p>
+
+    <!-- نموذج تواصل بسيط -->
+    <form method="get" action="">
+        <label for="name">الاسم:</label><br>
+        <input type="text" id="name" name="name" placeholder="اكتب اسمك"><br><br>
+
+        <label for="message">رسالتك:</label><br>
+        <textarea id="message" name="message" placeholder="اكتب رسالتك" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">إرسال</button>
+    </form>
+
+</body>
+</html>
